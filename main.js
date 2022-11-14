@@ -66,15 +66,11 @@ chart.render();
 
 chart.updateOptions({
     title: {
-    text: 'new'
-  },
-  
+        text: 'new'
+    }
+
 });
 
-$(document).ready(function($) {
-    if($('.list2').length > 0 ){
-    $('.list2').select2();
-    }
-});
+
 
 
